@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com Debonas: atleta de surf e desenvolvedor de software focado em criar aplicações de alta performance.">
+    <meta name="keywords" content="fotografia de surf, programação, contato, debonas, freela">
+    <title>Debonas Page | Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-flex">
+            <a href="index.html" class="logo">Debonas Surf<span>Pics</span></a>
+            <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-container">
+            <form id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required minlength="3" placeholder="Digite seu nome">
+                    <span class="error-message" id="nameError">O nome deve ter pelo menos 3 caracteres.</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+                    <span class="error-message" id="emailError">Coloque um e-mail válido.</span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Como posso te ajudar? Projetos, parcerias ou surf..."></textarea>
+                    <span class="error-message" id="messageError">A mensagem não pode ficar vazia.</span>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Enviar Mensagem</button>
+            </form>
+            <div id="formSuccess" class="success-box">
+                Mensagem enviada com sucesso! Entrarei em contato em breve.
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Debonas SurfPics. Todos os direitos reservados. Desenvolvido por <a href="https://www.instagram.com/debonas_?igsh=a2tjc3hwa210MWly/" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; font-weight: bold;">Debonas_</a> com foco em performance.
+            <a href="https://github.com/brunodebona" target="_blank" rel="noopener noreferrer" class="github-footer-link">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

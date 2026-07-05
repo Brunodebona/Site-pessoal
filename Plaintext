@@ -1,0 +1,9 @@
+├── index.html          # Página Inicial (Hero Video e Destaques)
+├── sobre.html          # Trajetória, Tecnologias e Parcerias (Jonas Tatuíra)
+├── portfolio.html      # Galeria de Mídia com Filtros Dinâmicos
+├── contato.html        # Formulário com Validação Assíncrona
+├── css/
+│   └── style.css       # Folha de Estilos Global, Layouts e Animações
+├── js/
+│   └── main.js         # Lógica Javascript Nativa (Menus, Filtros e Validação)
+└── img/                # Banco de Imagens e Vídeos Otimizados

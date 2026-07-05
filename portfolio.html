@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a galeria completa de fotos de surf por Debonas. Tubos, aéreos, campeonatos e o melhor do lifestyle do mar.">
+    <meta name="keywords" content="galeria de surf, fotos de ondas, tubos, aéreos, fotografia esportiva, debonas surfpics">
+    <title>Debonas Page | Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-flex">
+            <a href="index.html" class="logo">Debonas Surf<span>Pics</span></a>
+            <button class="menu-toggle" aria-label="Abrir Menu">☰</button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="portfolio.html" class="active">Portfólio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container section">
+        <h2 class="section-title">Galeria de Fotos & Vídeos</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="tubos">Vídeos</button>
+            <button class="filter-btn" data-filter="manobras">Manobras</button>
+            <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+        </div>
+
+        <div class="grid-gallery" id="portfolioGallery">
+            <div class="gallery-item" data-category="lifestyle">
+                <img src="img/hero/casa.jpeg" alt="Ambiente de desenvolvimento focado em tecnologia e futuro">
+                <div class="overlay"><span>Foco no Futuro, Lifestyle</span></div>
+            </div>
+            <div class="gallery-item" data-category="manobras">
+                <img src="img/hero/fotoaerial.jpeg" alt="Surfista executando uma manobra aérea no topo da onda">
+                <div class="overlay"><span>Aerial</span></div>
+            </div>
+            <div class="gallery-item" data-category="tubos">
+                <video autoplay loop muted playsinline class="gallery-video">
+                    <source src="img/videos/Videobatida.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+                <div class="overlay"><span>Competição</span></div>
+            </div>
+            <div class="gallery-item" data-category="tubos">
+                <video autoplay loop muted playsinline class="gallery-video">
+                    <source src="img/videos/videosul.mp4" type="video/mp4">
+                </video>
+                <div class="overlay"><span>Dia Clássico de surf</span></div>
+            </div>
+            <div class="gallery-item" data-category="tubos">
+                <video autoplay loop muted playsinline class="gallery-video">
+                    <source src="img/videos/video editado.mp4" type="video/mp4">
+                </video>  
+                <div class="overlay"><span>Dia de Clássico Competição</span></div>
+            </div>
+            <div class="gallery-item" data-category="manobras">
+                <img src="img/hero/ok-1048.jpg" alt="Surfista executando uma manobra aérea no topo da onda">
+                <div class="overlay"><span>Rasgada</span></div>
+            </div>
+            <div class="gallery-item" data-category="lifestyle">
+                <img src="img/hero/vivendo.jpeg" alt="Surfista comemorando no pódio após competição">
+                <div class="overlay"><span>Praia</span></div>
+            </div>
+            <div class="gallery-item" data-category="manobras">
+                <img src="img/hero/backside.jpeg" alt="Surfista executando uma manobra aérea no topo da onda">
+                <div class="overlay"><span>Batida</span></div>
+            </div>
+            <div class="gallery-item" data-category="manobras">
+                <img src="img/hero/ok-694.jpg" alt="Surfista executando uma manobra aérea no topo da onda">
+                <div class="overlay"><span>Aerial</span></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Debonas SurfPics. Todos os direitos reservados. Desenvolvido por <a href="https://www.instagram.com/debonas_?igsh=a2tjc3hwa210MWly/" target="_blank" rel="noopener noreferrer" style="color: var(--primary); text-decoration: none; font-weight: bold;">Debonas_</a> com foco em performance.
+            <a href="https://github.com/brunodebona" target="_blank" rel="noopener noreferrer" class="github-footer-link">
+                <i class="fab fa-github"> Bruno de Bona</i> GitHub
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
